@@ -53,6 +53,16 @@ nav a{
     border: none;
     margin-right: 10px;
     margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+
+}
+
+.btn:hover, .btn:focus {
+    background-color: #ababad;
+    transform: scale(1.05);
+    box-shadow: 0 4px 24px rgba(78, 71, 255, 0.15);
+    outline: none;
 }
 
 
@@ -120,4 +130,79 @@ nav a{
     font-size: 20px;
     margin-top: 10px; 
 
+}
+
+.get-touch {
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 200px;       
+    padding: 60px 80px;  /* Adjust padding as needed */
+    margin: 60px auto;   /* Optional: center and add space above/below */
+    max-width: 1200px;   /* Optional: limit width */
+}
+
+.touch-title {
+    
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    color: #222;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.contact-form {
+    flex: 1;
+    margin-top: 0; /* Remove extra top margin */
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*footer_section*/
+
+.main-footer {
+    background: #222;
+    color: #fff;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+
+.footer-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #8987A1;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: center;
+    color: #8987A1;
+    gap: 30px;
 }
